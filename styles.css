@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.image-container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.description {
+    margin-left: 100px;
+}
+
+.description h2 {
+    margin: 0 0 10px;
+}
+
+.description p {
+    margin: 0;
+}

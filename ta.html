@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zigzag Image Layout</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .item {
+            display: flex;
+            flex-basis: 100%;
+            margin: 10px 0;
+            align-items: center;
+        }
+
+        .item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .image {
+            flex: 1;
+            max-width: 300px;
+            margin: 0 20px;
+        }
+
+        .description {
+            flex: 2;
+            max-width: 500px;
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="image">
+                <img src="Untitled design (1).jpg" alt="Image 1">
+            </div>
+            <div class="description">
+                <p>The Siberian tiger, a subspecies of tiger, is the largest cat in the world. It averages about 3.3 m (11 ft.) in length, with a tail measuring 1 m (3 ft.). Adult male Siberian tigers can weigh up to 320 kg (700 lb.), while females are significantly smaller, weighing up to 180 kg (400 lb.).
+
+                    Siberian tigers are distinguishable by their striped fur. Similar to people’s unique fingerprints, no two tigers have the same striped pattern. Siberian tigers differ from other tigers because they have fewer, paler stripes, and they also have manes. The mane, in addition to their thick fur, helps keep them warm.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="vaquita.jpg" alt="Image 2">
+            </div>
+            <div class="description">
+                <p>Description for image 2.</
